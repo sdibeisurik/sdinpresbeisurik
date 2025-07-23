@@ -20,7 +20,7 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -37,14 +37,14 @@ body {
 }
 .display-4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.75rem;
+  font-size: 1.875rem;
 }
 .display-5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -53,11 +53,11 @@ body {
 }
 .display-7 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.3;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -81,9 +81,9 @@ body {
     line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.6rem;
@@ -91,9 +91,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
@@ -108,9 +108,9 @@ body {
     line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-4 {
-    font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 1.2rem;
+    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-5 {
     font-size: 1.6rem;
@@ -118,9 +118,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
   }
   .display-7 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 62rem) / (87 - 62))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 62rem) / (87 - 62))));
   }
 }
 /* Buttons */
@@ -646,13 +646,13 @@ a:hover {
 }
 .form-control {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.3;
   font-weight: 400;
   border-radius: 40px !important;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 .form-control:hover,
 .form-control:focus {
@@ -661,12 +661,12 @@ a:hover {
 }
 .form-control:-webkit-input-placeholder {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.3;
   font-weight: 400;
 }
 .form-control:-webkit-input-placeholder > .mbr-iconfont {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 blockquote {
   border-color: #b6f92c;
@@ -1352,15 +1352,15 @@ a {
 .cid-uO0uSp2qj1 .row {
   flex-direction: row-reverse;
 }
-.cid-uJmBhuoz9U {
-  padding-top: 6rem;
-  padding-bottom: 7rem;
-  background-color: #14b910;
+.cid-uRJW1spwY1 {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  background-image: url("../../../assets/images/whatsapp-image-2025-05-17-at-20.28.36-c827537e-7.jpeg");
 }
-.cid-uJmBhuoz9U .mbr-fallback-image.disabled {
+.cid-uRJW1spwY1 .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uJmBhuoz9U .mbr-fallback-image {
+.cid-uRJW1spwY1 .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1369,34 +1369,42 @@ a {
   position: absolute;
   top: 0;
 }
-@media (max-width: 991px) {
-  .cid-uJmBhuoz9U .image-wrapper {
+.cid-uRJW1spwY1 .card-wrapper {
+  background: #236822;
+}
+@media (max-width: 767px) {
+  .cid-uRJW1spwY1 .card-wrapper {
+    padding: 2rem 1.5rem;
     margin-bottom: 1rem;
   }
 }
-.cid-uJmBhuoz9U img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-uJmBhuoz9U .text-wrapper {
-    padding: 2rem;
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-uRJW1spwY1 .card-wrapper {
+    padding: 2.25rem;
   }
 }
-.cid-uJmBhuoz9U .mbr-section-title {
+@media (min-width: 992px) {
+  .cid-uRJW1spwY1 .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-uRJW1spwY1 .mbr-text,
+.cid-uRJW1spwY1 .mbr-section-btn {
+  text-align: left;
+  color: #f7f7f7;
+}
+.cid-uRJW1spwY1 .card-title {
   color: #ffffff;
 }
-.cid-uJmBhuoz9U .mbr-text {
-  color: #ffffff;
+.cid-uRJYpXDO5l {
+  padding-top: 4rem;
+  padding-bottom: 9rem;
+  background: #edefeb;
 }
-.cid-uNYbSX957g {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: #ffffff;
-}
-.cid-uNYbSX957g .mbr-fallback-image.disabled {
+.cid-uRJYpXDO5l .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-uNYbSX957g .mbr-fallback-image {
+.cid-uRJYpXDO5l .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1405,39 +1413,70 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-uNYbSX957g .image-wrapper {
-  display: flex;
-  align-items: center;
+@media (max-width: 992px) {
+  .cid-uRJYpXDO5l .row .map-wrapper {
+    margin-top: 2rem;
+  }
 }
-.cid-uNYbSX957g .card-wrapper {
-  margin-bottom: 2rem;
-  display: flex;
-  border-radius: 4px;
+@media (max-width: 767px) {
+  .cid-uRJYpXDO5l .row .map-wrapper {
+    margin-top: 1rem;
+  }
+}
+.cid-uRJYpXDO5l .google-map {
+  height: 100%;
+  position: relative;
+}
+.cid-uRJYpXDO5l .google-map iframe {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .cid-uRJYpXDO5l .google-map iframe {
+    min-height: 350px;
+  }
+}
+.cid-uRJYpXDO5l .google-map [data-state-details] {
+  color: #6b6763;
+  height: 1.5em;
+  margin-top: -0.75em;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+.cid-uRJYpXDO5l .google-map[data-state] {
+  background: #e9e5dc;
+}
+.cid-uRJYpXDO5l .google-map[data-state="loading"] [data-state-details] {
+  display: none;
+}
+.cid-uRJYpXDO5l .card-wrapper {
+  padding: 2.25rem;
   background: #236822;
 }
-@media (max-width: 991px) {
-  .cid-uNYbSX957g .card-wrapper {
-    padding: 1rem 2rem;
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-uRJYpXDO5l .card-wrapper {
+    padding: 1.5rem;
   }
 }
-@media (min-width: 992px) {
-  .cid-uNYbSX957g .card-wrapper {
-    padding: 2rem 4rem;
+@media (max-width: 767px) {
+  .cid-uRJYpXDO5l .card-wrapper {
+    padding: 2rem 1.5rem;
   }
 }
-.cid-uNYbSX957g .mbr-iconfont {
-  font-size: 2rem;
-  padding-right: 1.5rem;
-  color: #b6f92c;
+.cid-uRJYpXDO5l ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
-.cid-uNYbSX957g .mbr-section-title {
-  color: #000000;
+.cid-uRJYpXDO5l .content-head {
+  max-width: 800px;
 }
-.cid-uNYbSX957g .card-title {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-uNYbSX957g P {
+.cid-uRJYpXDO5l .list,
+.cid-uRJYpXDO5l .item-wrap {
   color: #ffffff;
 }
 .cid-uNYjcI8Rnx {
@@ -3766,7 +3805,7 @@ a {
 .cid-uM7YnZF4jV {
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: url("../../../assets/images/54d7b3f3-7434-4f67-807e-01c23456a126.jpeg");
+  background-image: url("../../../assets/images/gedung-sekolah-3.jpeg");
 }
 .cid-uM7YnZF4jV .mbr-fallback-image.disabled {
   display: none;
